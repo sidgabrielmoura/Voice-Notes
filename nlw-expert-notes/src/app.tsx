@@ -52,7 +52,7 @@ export function App() {
 
     setNotes(notesArray)
 
-    localStorage.setItem('nota', JSON.stringify(notesArray))
+    localStorage.setItem('notes', JSON.stringify(notesArray))
   }
 
   return(
